@@ -1,0 +1,133 @@
+/* Write some CSS below */
+
+body{
+	font-family: "Overpass", sans-serif;
+	font-size: 24px;
+	color: #404042;
+	margin: 0;
+}
+
+h1, h2, h3{
+	font-family: "Chivo", sans-serif;	
+}
+
+h1{
+	color: rgb(255,255,255);
+}
+
+h2{
+	font-size: 27px;
+}
+
+p{
+	color: #CACACA;
+}
+
+.btn-blue{
+	text-decoration: none;
+	background-color: #1A48E3;
+	font-weight: bold;	
+	color: rgb(255,255,255);
+	padding: 20px 40px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: #0D1EC6;
+}
+
+.banner{
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	padding: 150px 0;
+	text-align: center;
+
+}
+
+.container{
+	width: 900px;
+	margin: 60px auto;
+}
+
+.card-white{
+	width: 200px;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius:4px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+}
+
+.card-white img{
+	height: 180px;
+	width: 180px;
+  	object-fit: cover;
+  	border-radius: 4px;
+}
+
+.footer{
+  background: #404042;
+  padding: 10px 10px;
+
+}
+
+.footer p{
+	color: white;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+/* Cards media queries */
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
